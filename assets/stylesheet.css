@@ -1,0 +1,81 @@
+body {
+  font-size: 16px;
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.banner {
+  text-align: center;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+}
+
+.hour {
+  background-color: #818181;
+  color: #000000;
+}
+
+.past {
+  background-color: #aa0000;
+  color: white;
+}
+
+.present {
+  background-color: #042591;
+  color: white;
+}
+
+.future {
+  background-color: #047c04;
+  color: white;
+}
+
+.saveBtn {
+  border-left:solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #03f2fae5;
+  color: rgb(0, 0, 0);
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+
+}
+
+.time {
+  background-color:  #03f2fae5;
+  border-radius: 50px;
+  margin: 0 auto;
+  width: 34%;
+  padding: 5px ;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-top: 20px;
+}
